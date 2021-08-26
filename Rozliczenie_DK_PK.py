@@ -5,7 +5,6 @@ from tkinter.constants import END
 window = tk.Tk()
 window.title('Obliczenia dla kredutu hipotecznego')
 window.geometry('800x600')
-window
 
 
 def close_windows():
