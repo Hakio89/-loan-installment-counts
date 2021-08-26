@@ -9,7 +9,6 @@ window.geometry('800x600')
 
 def close_windows():
     sys.exit()
-    return None
 
 
 main_menu = tk.Menu(window)
