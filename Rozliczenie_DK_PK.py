@@ -46,17 +46,17 @@ def clear():
     entry_w_dk.delete(0, END)
 
 
-lp = tk.Label(window, text='Wynagrodzenie Pawła: ')
+lp = tk.Label(window, text='Wynagrodzenie osoba nr 1: ')
 lp.pack()
 entry_pk = tk.Entry(window, width="50")
 entry_pk.pack()
 
-ld = tk.Label(window, text='Wynagrodzenie Danieli: ')
+ld = tk.Label(window, text='Wynagrodzenie osoba nr 2: ')
 ld.pack()
 entry_dk = tk.Entry(window, width="50")
 entry_dk.pack()
 
-lr = tk.Label(window, text='Wartość raty: ')
+lr = tk.Label(window, text='Wysokość raty: ')
 lr.pack()
 entry_rt = tk.Entry(window, width="50")
 entry_rt.pack()
@@ -64,22 +64,22 @@ entry_rt.pack()
 b_oblicz = tk.Button(window, text="Oblicz", command=fo)
 b_oblicz.pack()
 
-lsp = tk.Label(window, text='Kwota kredytu Paweł: ')
+lsp = tk.Label(window, text='Kwota kredytu osoba nr 1: ')
 lsp.pack()
 entry_s_pk = tk.Entry(window, width="50")
 entry_s_pk.pack()
 
-lsd = tk.Label(window, text='Kwota kredytu Daniela: ')
+lsd = tk.Label(window, text='Kwota kredytu osoba nr 2: ')
 lsd.pack()
 entry_s_dk = tk.Entry(window, width="50")
 entry_s_dk.pack()
 
-lwp = tk.Label(window, text='Kwota do wypłaty Paweł: ')
+lwp = tk.Label(window, text='Kwota do wypłaty osoba nr 1: ')
 lwp.pack()
 entry_w_pk = tk.Entry(window, width="50")
 entry_w_pk.pack()
 
-lwd = tk.Label(window, text='Kwota do wypłaty Daniela: ')
+lwd = tk.Label(window, text='Kwota do wypłaty osoba nr 2: ')
 lwd.pack()
 entry_w_dk = tk.Entry(window, width="50")
 entry_w_dk.pack()
