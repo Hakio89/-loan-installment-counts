@@ -3,7 +3,7 @@ import sys
 from tkinter.constants import END
 
 window = tk.Tk()
-window.title('Obliczenia dla kredutu hipotecznego')
+window.title('Obliczenia dla raty kredytu')
 window.geometry('800x600')
 
 
