@@ -61,7 +61,7 @@ lr.pack()
 entry_rt = tk.Entry(window, width="50")
 entry_rt.pack()
 
-b_oblicz = tk.Button(window, text="Oblicz", command=fo)
+b_oblicz = tk.Button(window, text="Count", command=fo)
 b_oblicz.pack()
 
 lsp = tk.Label(window, text='Kwota kredytu osoba nr 1: ')
@@ -84,7 +84,7 @@ lwd.pack()
 entry_w_dk = tk.Entry(window, width="50")
 entry_w_dk.pack()
 
-b_wyczysc = tk.Button(window, text="Wyczyść", command=clear)
+b_wyczysc = tk.Button(window, text="Clean", command=clear)
 b_wyczysc.pack()
 
 window.mainloop()
